@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroMap La Maná</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🌿 AgroMap</div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#quees">¿Qué es?</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#precios">Precios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h1>Mapea tu tierra, optimiza tu futuro</h1>
+  <p>Mapas de suelos, alertas climáticas y monitoreo de plagas para agricultores de La Maná.</p>
+  <button class="btn">Probar Gratis</button>
+  <button class="btn btn-sec">Plan Premium $5/mes</button>
+</section>
+
+<section id="quees" class="section">
+  <h2>¿Qué es AgroMap La Maná?</h2>
+  <p>Plataforma SIG local que ofrece datos geoespaciales, mapas y alertas personalizadas para optimizar la producción agrícola.</p>
+</section>
+
+<section id="caracteristicas" class="section gray">
+  <h2>Características</h2>
+  <div class="grid">
+    <div class="card">Mapas de Suelos</div>
+    <div class="card">Mapa de Plagas</div>
+    <div class="card">Alertas Climáticas</div>
+    <div class="card">Reportes PDF</div>
+    <div class="card">Modo Offline</div>
+    <div class="card">GPS Integrado</div>
+  </div>
+</section>
+
+<section id="precios" class="section">
+  <h2>Planes y Precios</h2>
+  <div class="pricing">
+    <div class="plan">
+      <h3>Básico</h3>
+      <p>Gratis</p>
+    </div>
+
+    <div class="plan premium">
+      <h3>Premium</h3>
+      <p>$5 / mes</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section gray">
+  <h2>Contacto</h2>
+  <form id="form">
+    <input type="text" placeholder="Nombre" required>
+    <input type="email" placeholder="Correo" required>
+    <textarea placeholder="Mensaje" required></textarea>
+    <button>Enviar</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 AgroMap La Maná — Todos los derechos reservados
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
